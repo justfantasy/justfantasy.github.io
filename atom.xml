@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="utf-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
-  <title>美好时光小站</title>
+  <title>弈栈</title>
   
   <subtitle>不悔梦归处，只恨太匆匆。</subtitle>
   <link href="/atom.xml" rel="self"/>
   
-  <link href="http://justfantasy.cn/"/>
+  <link href="https://justfantasy.cn/"/>
   <updated>2020-07-28T08:08:27.712Z</updated>
-  <id>http://justfantasy.cn/</id>
+  <id>https://justfantasy.cn/</id>
   
   <author>
     <name>JustFantasy</name>
@@ -18,8 +18,8 @@
   
   <entry>
     <title>将hexo博客从github和coding迁移至自己买的腾讯云服务器</title>
-    <link href="http://justfantasy.cn/2019/02/13/hexo-to-own-server/"/>
-    <id>http://justfantasy.cn/2019/02/13/hexo-to-own-server/</id>
+    <link href="https://justfantasy.cn/2019/02/13/hexo-to-own-server/"/>
+    <id>https://justfantasy.cn/2019/02/13/hexo-to-own-server/</id>
     <published>2019-02-13T01:52:00.000Z</published>
     <updated>2020-07-28T08:08:27.712Z</updated>
     
@@ -35,17 +35,17 @@
     </summary>
     
     
-      <category term="笔记" scheme="http://justfantasy.cn/categories/%E7%AC%94%E8%AE%B0/"/>
+      <category term="笔记" scheme="https://justfantasy.cn/categories/%E7%AC%94%E8%AE%B0/"/>
     
     
-      <category term="笔记" scheme="http://justfantasy.cn/tags/%E7%AC%94%E8%AE%B0/"/>
+      <category term="笔记" scheme="https://justfantasy.cn/tags/%E7%AC%94%E8%AE%B0/"/>
     
   </entry>
   
   <entry>
     <title>安卓手机微信浏览器ajax请求的问题</title>
-    <link href="http://justfantasy.cn/2019/01/03/android-wechat-ajax/"/>
-    <id>http://justfantasy.cn/2019/01/03/android-wechat-ajax/</id>
+    <link href="https://justfantasy.cn/2019/01/03/android-wechat-ajax/"/>
+    <id>https://justfantasy.cn/2019/01/03/android-wechat-ajax/</id>
     <published>2019-01-03T07:54:00.000Z</published>
     <updated>2020-07-28T08:08:27.471Z</updated>
     
@@ -58,19 +58,19 @@
     </summary>
     
     
-      <category term="编程" scheme="http://justfantasy.cn/categories/%E7%BC%96%E7%A8%8B/"/>
+      <category term="编程" scheme="https://justfantasy.cn/categories/%E7%BC%96%E7%A8%8B/"/>
     
     
-      <category term="javascript" scheme="http://justfantasy.cn/tags/javascript/"/>
+      <category term="javascript" scheme="https://justfantasy.cn/tags/javascript/"/>
     
-      <category term="微信" scheme="http://justfantasy.cn/tags/%E5%BE%AE%E4%BF%A1/"/>
+      <category term="微信" scheme="https://justfantasy.cn/tags/%E5%BE%AE%E4%BF%A1/"/>
     
   </entry>
   
   <entry>
     <title>时间复杂度和大O表示法（笔记）</title>
-    <link href="http://justfantasy.cn/2018/11/30/time-complexity-and-large-o-representation/"/>
-    <id>http://justfantasy.cn/2018/11/30/time-complexity-and-large-o-representation/</id>
+    <link href="https://justfantasy.cn/2018/11/30/time-complexity-and-large-o-representation/"/>
+    <id>https://justfantasy.cn/2018/11/30/time-complexity-and-large-o-representation/</id>
     <published>2018-11-30T09:36:00.000Z</published>
     <updated>2020-07-28T08:08:27.369Z</updated>
     
@@ -83,17 +83,17 @@
     </summary>
     
     
-      <category term="编程" scheme="http://justfantasy.cn/categories/%E7%BC%96%E7%A8%8B/"/>
+      <category term="编程" scheme="https://justfantasy.cn/categories/%E7%BC%96%E7%A8%8B/"/>
     
     
-      <category term="数据结构和算法" scheme="http://justfantasy.cn/tags/%E6%95%B0%E6%8D%AE%E7%BB%93%E6%9E%84%E5%92%8C%E7%AE%97%E6%B3%95/"/>
+      <category term="数据结构和算法" scheme="https://justfantasy.cn/tags/%E6%95%B0%E6%8D%AE%E7%BB%93%E6%9E%84%E5%92%8C%E7%AE%97%E6%B3%95/"/>
     
   </entry>
   
   <entry>
     <title>freeCodeCamp - Caesars Cipher - 凯撒密码</title>
-    <link href="http://justfantasy.cn/2018/11/05/freecodecamp-caesars-cipher/"/>
-    <id>http://justfantasy.cn/2018/11/05/freecodecamp-caesars-cipher/</id>
+    <link href="https://justfantasy.cn/2018/11/05/freecodecamp-caesars-cipher/"/>
+    <id>https://justfantasy.cn/2018/11/05/freecodecamp-caesars-cipher/</id>
     <published>2018-11-05T01:04:00.000Z</published>
     <updated>2020-07-28T08:08:27.502Z</updated>
     
@@ -107,19 +107,19 @@
     </summary>
     
     
-      <category term="编程" scheme="http://justfantasy.cn/categories/%E7%BC%96%E7%A8%8B/"/>
+      <category term="编程" scheme="https://justfantasy.cn/categories/%E7%BC%96%E7%A8%8B/"/>
     
     
-      <category term="javascript" scheme="http://justfantasy.cn/tags/javascript/"/>
+      <category term="javascript" scheme="https://justfantasy.cn/tags/javascript/"/>
     
-      <category term="freeCodeCamp" scheme="http://justfantasy.cn/tags/freeCodeCamp/"/>
+      <category term="freeCodeCamp" scheme="https://justfantasy.cn/tags/freeCodeCamp/"/>
     
   </entry>
   
   <entry>
     <title>sublime、vscode、webstorm通用html5快捷代码生成</title>
-    <link href="http://justfantasy.cn/2018/10/26/create-html5-shortcut-key/"/>
-    <id>http://justfantasy.cn/2018/10/26/create-html5-shortcut-key/</id>
+    <link href="https://justfantasy.cn/2018/10/26/create-html5-shortcut-key/"/>
+    <id>https://justfantasy.cn/2018/10/26/create-html5-shortcut-key/</id>
     <published>2018-10-26T02:09:00.000Z</published>
     <updated>2020-07-28T08:08:27.310Z</updated>
     
@@ -135,19 +135,19 @@
     </summary>
     
     
-      <category term="编程" scheme="http://justfantasy.cn/categories/%E7%BC%96%E7%A8%8B/"/>
+      <category term="编程" scheme="https://justfantasy.cn/categories/%E7%BC%96%E7%A8%8B/"/>
     
     
-      <category term="html/css" scheme="http://justfantasy.cn/tags/html-css/"/>
+      <category term="html/css" scheme="https://justfantasy.cn/tags/html-css/"/>
     
-      <category term="开发工具" scheme="http://justfantasy.cn/tags/%E5%BC%80%E5%8F%91%E5%B7%A5%E5%85%B7/"/>
+      <category term="开发工具" scheme="https://justfantasy.cn/tags/%E5%BC%80%E5%8F%91%E5%B7%A5%E5%85%B7/"/>
     
   </entry>
   
   <entry>
     <title>PS切图技巧流程笔记</title>
-    <link href="http://justfantasy.cn/2018/10/19/ps-cut-image/"/>
-    <id>http://justfantasy.cn/2018/10/19/ps-cut-image/</id>
+    <link href="https://justfantasy.cn/2018/10/19/ps-cut-image/"/>
+    <id>https://justfantasy.cn/2018/10/19/ps-cut-image/</id>
     <published>2018-10-19T02:03:00.000Z</published>
     <updated>2020-07-28T08:08:27.223Z</updated>
     
@@ -162,17 +162,17 @@
     </summary>
     
     
-      <category term="编程" scheme="http://justfantasy.cn/categories/%E7%BC%96%E7%A8%8B/"/>
+      <category term="编程" scheme="https://justfantasy.cn/categories/%E7%BC%96%E7%A8%8B/"/>
     
     
-      <category term="html/css" scheme="http://justfantasy.cn/tags/html-css/"/>
+      <category term="html/css" scheme="https://justfantasy.cn/tags/html-css/"/>
     
   </entry>
   
   <entry>
     <title>暗恋</title>
-    <link href="http://justfantasy.cn/2018/10/11/secret-love/"/>
-    <id>http://justfantasy.cn/2018/10/11/secret-love/</id>
+    <link href="https://justfantasy.cn/2018/10/11/secret-love/"/>
+    <id>https://justfantasy.cn/2018/10/11/secret-love/</id>
     <published>2018-10-11T13:37:00.000Z</published>
     <updated>2020-07-28T08:08:27.437Z</updated>
     
@@ -187,19 +187,19 @@
     </summary>
     
     
-      <category term="札记" scheme="http://justfantasy.cn/categories/%E6%9C%AD%E8%AE%B0/"/>
+      <category term="札记" scheme="https://justfantasy.cn/categories/%E6%9C%AD%E8%AE%B0/"/>
     
     
-      <category term="生活札记" scheme="http://justfantasy.cn/tags/%E7%94%9F%E6%B4%BB%E6%9C%AD%E8%AE%B0/"/>
+      <category term="生活札记" scheme="https://justfantasy.cn/tags/%E7%94%9F%E6%B4%BB%E6%9C%AD%E8%AE%B0/"/>
     
-      <category term="小小说" scheme="http://justfantasy.cn/tags/%E5%B0%8F%E5%B0%8F%E8%AF%B4/"/>
+      <category term="小小说" scheme="https://justfantasy.cn/tags/%E5%B0%8F%E5%B0%8F%E8%AF%B4/"/>
     
   </entry>
   
   <entry>
     <title>借蜡烛</title>
-    <link href="http://justfantasy.cn/2018/09/28/borrow-a-candle/"/>
-    <id>http://justfantasy.cn/2018/09/28/borrow-a-candle/</id>
+    <link href="https://justfantasy.cn/2018/09/28/borrow-a-candle/"/>
+    <id>https://justfantasy.cn/2018/09/28/borrow-a-candle/</id>
     <published>2018-09-28T01:30:00.000Z</published>
     <updated>2020-07-28T08:08:27.766Z</updated>
     
@@ -212,19 +212,19 @@
     </summary>
     
     
-      <category term="札记" scheme="http://justfantasy.cn/categories/%E6%9C%AD%E8%AE%B0/"/>
+      <category term="札记" scheme="https://justfantasy.cn/categories/%E6%9C%AD%E8%AE%B0/"/>
     
     
-      <category term="生活札记" scheme="http://justfantasy.cn/tags/%E7%94%9F%E6%B4%BB%E6%9C%AD%E8%AE%B0/"/>
+      <category term="生活札记" scheme="https://justfantasy.cn/tags/%E7%94%9F%E6%B4%BB%E6%9C%AD%E8%AE%B0/"/>
     
-      <category term="小小说" scheme="http://justfantasy.cn/tags/%E5%B0%8F%E5%B0%8F%E8%AF%B4/"/>
+      <category term="小小说" scheme="https://justfantasy.cn/tags/%E5%B0%8F%E5%B0%8F%E8%AF%B4/"/>
     
   </entry>
   
   <entry>
     <title>composer实现自动加载</title>
-    <link href="http://justfantasy.cn/2018/09/28/php-composer-autoload/"/>
-    <id>http://justfantasy.cn/2018/09/28/php-composer-autoload/</id>
+    <link href="https://justfantasy.cn/2018/09/28/php-composer-autoload/"/>
+    <id>https://justfantasy.cn/2018/09/28/php-composer-autoload/</id>
     <published>2018-09-28T01:30:00.000Z</published>
     <updated>2020-07-28T08:08:27.802Z</updated>
     
@@ -237,17 +237,17 @@
     </summary>
     
     
-      <category term="编程" scheme="http://justfantasy.cn/categories/%E7%BC%96%E7%A8%8B/"/>
+      <category term="编程" scheme="https://justfantasy.cn/categories/%E7%BC%96%E7%A8%8B/"/>
     
     
-      <category term="php" scheme="http://justfantasy.cn/tags/php/"/>
+      <category term="php" scheme="https://justfantasy.cn/tags/php/"/>
     
   </entry>
   
   <entry>
     <title>laravel5.5项目初始构建</title>
-    <link href="http://justfantasy.cn/2018/01/04/learn-laravel5.5-start/"/>
-    <id>http://justfantasy.cn/2018/01/04/learn-laravel5.5-start/</id>
+    <link href="https://justfantasy.cn/2018/01/04/learn-laravel5.5-start/"/>
+    <id>https://justfantasy.cn/2018/01/04/learn-laravel5.5-start/</id>
     <published>2018-01-04T08:43:00.000Z</published>
     <updated>2020-07-28T08:08:27.269Z</updated>
     
@@ -260,19 +260,19 @@
     </summary>
     
     
-      <category term="编程" scheme="http://justfantasy.cn/categories/%E7%BC%96%E7%A8%8B/"/>
+      <category term="编程" scheme="https://justfantasy.cn/categories/%E7%BC%96%E7%A8%8B/"/>
     
     
-      <category term="php" scheme="http://justfantasy.cn/tags/php/"/>
+      <category term="php" scheme="https://justfantasy.cn/tags/php/"/>
     
-      <category term="laravel" scheme="http://justfantasy.cn/tags/laravel/"/>
+      <category term="laravel" scheme="https://justfantasy.cn/tags/laravel/"/>
     
   </entry>
   
   <entry>
     <title>Windows下使用Sublime Text 3调试/运行 C/C++ 程序</title>
-    <link href="http://justfantasy.cn/2017/10/11/windows-sublime-c-execute/"/>
-    <id>http://justfantasy.cn/2017/10/11/windows-sublime-c-execute/</id>
+    <link href="https://justfantasy.cn/2017/10/11/windows-sublime-c-execute/"/>
+    <id>https://justfantasy.cn/2017/10/11/windows-sublime-c-execute/</id>
     <published>2017-10-11T09:36:00.000Z</published>
     <updated>2020-07-28T08:08:27.339Z</updated>
     
@@ -285,17 +285,17 @@
     </summary>
     
     
-      <category term="工具" scheme="http://justfantasy.cn/categories/%E5%B7%A5%E5%85%B7/"/>
+      <category term="工具" scheme="https://justfantasy.cn/categories/%E5%B7%A5%E5%85%B7/"/>
     
     
-      <category term="开发工具" scheme="http://justfantasy.cn/tags/%E5%BC%80%E5%8F%91%E5%B7%A5%E5%85%B7/"/>
+      <category term="开发工具" scheme="https://justfantasy.cn/tags/%E5%BC%80%E5%8F%91%E5%B7%A5%E5%85%B7/"/>
     
   </entry>
   
   <entry>
     <title>关于PHP程序员技术职业生涯规划的感想</title>
-    <link href="http://justfantasy.cn/2017/10/11/php-career-planning/"/>
-    <id>http://justfantasy.cn/2017/10/11/php-career-planning/</id>
+    <link href="https://justfantasy.cn/2017/10/11/php-career-planning/"/>
+    <id>https://justfantasy.cn/2017/10/11/php-career-planning/</id>
     <published>2017-10-11T04:35:00.000Z</published>
     <updated>2020-07-28T08:08:27.679Z</updated>
     
@@ -308,19 +308,19 @@
     </summary>
     
     
-      <category term="札记" scheme="http://justfantasy.cn/categories/%E6%9C%AD%E8%AE%B0/"/>
+      <category term="札记" scheme="https://justfantasy.cn/categories/%E6%9C%AD%E8%AE%B0/"/>
     
     
-      <category term="php" scheme="http://justfantasy.cn/tags/php/"/>
+      <category term="php" scheme="https://justfantasy.cn/tags/php/"/>
     
-      <category term="职业规划" scheme="http://justfantasy.cn/tags/%E8%81%8C%E4%B8%9A%E8%A7%84%E5%88%92/"/>
+      <category term="职业规划" scheme="https://justfantasy.cn/tags/%E8%81%8C%E4%B8%9A%E8%A7%84%E5%88%92/"/>
     
   </entry>
   
   <entry>
     <title>python3爬虫学习笔记之模拟淘宝登录</title>
-    <link href="http://justfantasy.cn/2017/03/15/learn-python3-taobao-login/"/>
-    <id>http://justfantasy.cn/2017/03/15/learn-python3-taobao-login/</id>
+    <link href="https://justfantasy.cn/2017/03/15/learn-python3-taobao-login/"/>
+    <id>https://justfantasy.cn/2017/03/15/learn-python3-taobao-login/</id>
     <published>2017-03-15T09:18:00.000Z</published>
     <updated>2020-07-28T08:08:27.528Z</updated>
     
@@ -333,19 +333,19 @@
     </summary>
     
     
-      <category term="编程" scheme="http://justfantasy.cn/categories/%E7%BC%96%E7%A8%8B/"/>
+      <category term="编程" scheme="https://justfantasy.cn/categories/%E7%BC%96%E7%A8%8B/"/>
     
     
-      <category term="python" scheme="http://justfantasy.cn/tags/python/"/>
+      <category term="python" scheme="https://justfantasy.cn/tags/python/"/>
     
-      <category term="爬虫" scheme="http://justfantasy.cn/tags/%E7%88%AC%E8%99%AB/"/>
+      <category term="爬虫" scheme="https://justfantasy.cn/tags/%E7%88%AC%E8%99%AB/"/>
     
   </entry>
   
   <entry>
     <title>python3爬虫学习笔记之cookie的使用</title>
-    <link href="http://justfantasy.cn/2017/03/14/learn-python3-cookie/"/>
-    <id>http://justfantasy.cn/2017/03/14/learn-python3-cookie/</id>
+    <link href="https://justfantasy.cn/2017/03/14/learn-python3-cookie/"/>
+    <id>https://justfantasy.cn/2017/03/14/learn-python3-cookie/</id>
     <published>2017-03-14T13:36:00.000Z</published>
     <updated>2020-07-28T08:08:27.603Z</updated>
     
@@ -359,19 +359,19 @@
     </summary>
     
     
-      <category term="编程" scheme="http://justfantasy.cn/categories/%E7%BC%96%E7%A8%8B/"/>
+      <category term="编程" scheme="https://justfantasy.cn/categories/%E7%BC%96%E7%A8%8B/"/>
     
     
-      <category term="python" scheme="http://justfantasy.cn/tags/python/"/>
+      <category term="python" scheme="https://justfantasy.cn/tags/python/"/>
     
-      <category term="爬虫" scheme="http://justfantasy.cn/tags/%E7%88%AC%E8%99%AB/"/>
+      <category term="爬虫" scheme="https://justfantasy.cn/tags/%E7%88%AC%E8%99%AB/"/>
     
   </entry>
   
   <entry>
     <title>python3爬虫学习笔记之urllib库的使用</title>
-    <link href="http://justfantasy.cn/2017/03/13/learn-python3-urllib/"/>
-    <id>http://justfantasy.cn/2017/03/13/learn-python3-urllib/</id>
+    <link href="https://justfantasy.cn/2017/03/13/learn-python3-urllib/"/>
+    <id>https://justfantasy.cn/2017/03/13/learn-python3-urllib/</id>
     <published>2017-03-13T12:21:00.000Z</published>
     <updated>2020-07-28T08:08:27.399Z</updated>
     
@@ -384,19 +384,19 @@
     </summary>
     
     
-      <category term="编程" scheme="http://justfantasy.cn/categories/%E7%BC%96%E7%A8%8B/"/>
+      <category term="编程" scheme="https://justfantasy.cn/categories/%E7%BC%96%E7%A8%8B/"/>
     
     
-      <category term="python" scheme="http://justfantasy.cn/tags/python/"/>
+      <category term="python" scheme="https://justfantasy.cn/tags/python/"/>
     
-      <category term="爬虫" scheme="http://justfantasy.cn/tags/%E7%88%AC%E8%99%AB/"/>
+      <category term="爬虫" scheme="https://justfantasy.cn/tags/%E7%88%AC%E8%99%AB/"/>
     
   </entry>
   
   <entry>
     <title>python3爬虫学习笔记之准备阶段</title>
-    <link href="http://justfantasy.cn/2017/03/13/learn-python3-start/"/>
-    <id>http://justfantasy.cn/2017/03/13/learn-python3-start/</id>
+    <link href="https://justfantasy.cn/2017/03/13/learn-python3-start/"/>
+    <id>https://justfantasy.cn/2017/03/13/learn-python3-start/</id>
     <published>2017-03-13T11:56:00.000Z</published>
     <updated>2020-07-28T08:08:27.570Z</updated>
     
@@ -409,12 +409,12 @@
     </summary>
     
     
-      <category term="编程" scheme="http://justfantasy.cn/categories/%E7%BC%96%E7%A8%8B/"/>
+      <category term="编程" scheme="https://justfantasy.cn/categories/%E7%BC%96%E7%A8%8B/"/>
     
     
-      <category term="python" scheme="http://justfantasy.cn/tags/python/"/>
+      <category term="python" scheme="https://justfantasy.cn/tags/python/"/>
     
-      <category term="爬虫" scheme="http://justfantasy.cn/tags/%E7%88%AC%E8%99%AB/"/>
+      <category term="爬虫" scheme="https://justfantasy.cn/tags/%E7%88%AC%E8%99%AB/"/>
     
   </entry>
   
