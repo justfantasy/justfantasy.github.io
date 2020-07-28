@@ -29,7 +29,7 @@
 <meta property="og:description" content="本来博客部署在coding上的，经常访问速度超级慢。索性就研究了一下怎么部署到自己买的云服务器上。  我买的是腾讯云的服务器。网上其实有蛮多教程的。我这里还是做了一次整理。">
 <meta property="og:locale" content="zh_CN">
 <meta property="article:published_time" content="2019-02-13T01:52:00.000Z">
-<meta property="article:modified_time" content="2019-02-14T01:18:16.495Z">
+<meta property="article:modified_time" content="2020-07-28T06:13:57.306Z">
 <meta property="article:author" content="JustFantasy">
 <meta property="article:tag" content="笔记">
 <meta name="twitter:card" content="summary">
@@ -240,7 +240,7 @@
     <div class="content">
         
 <span class="post-time">
-    最后更新时间：<time datetime="2019-02-14T01:18:16.495Z" itemprop="dateUpdated">2019-02-14 09:18:16</time>
+    最后更新时间：<time datetime="2020-07-28T06:13:57.306Z" itemprop="dateUpdated">2020-07-28 14:13:57</time>
 </span><br>
 
 
@@ -340,6 +340,49 @@
 
 
     
+
+
+
+
+
+
+
+
+
+
+
+    <!-- Valine Comments -->
+    <div class="comments vcomment" id="comments"></div>
+    <script src="//cdn1.lncld.net/static/js/3.0.4/av-min.js"></script>
+    <script src="//unpkg.com/valine@latest/dist/Valine.min.js"></script>
+    <!-- Valine Comments script -->
+    <script>
+        var GUEST_INFO = ['nick','mail','link'];
+        var guest_info = 'nick,mail,link'.split(',').filter(function(item){
+          return GUEST_INFO.indexOf(item) > -1
+        });
+        new Valine({
+            el: '#comments',
+            notify: 'false' == 'true',
+            verify: 'false' == 'true',
+            appId: "yik6pxXgW4yqc1glHHw6hSOt-gzGzoHsz",
+            appKey: "JAHVK57PHsSHPjJcciAj9lfv",
+            avatar: "mm",
+            placeholder: "Just go go",
+            guest_info: guest_info.length == 0 ? GUEST_INFO : guest_info,
+            pageSize: "10"
+        })
+    </script>
+    <!-- Valine Comments end -->
+
+
+
+
+
+
+
+
+
 
 </article>
 
