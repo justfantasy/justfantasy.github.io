@@ -1,0 +1,520 @@
+<!DOCTYPE html>
+<html>
+<head>
+    
+
+    
+
+    
+
+
+
+    <meta charset="utf-8">
+    
+    
+    
+    
+    <title>将hexo博客从github和coding迁移至自己买的腾讯云服务器 | 美好时光小站 | 不悔梦归处，只恨太匆匆。</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+    
+    <meta name="theme-color" content="#3F51B5">
+    
+    
+    <meta name="keywords" content="笔记">
+    <meta name="description" content="本来博客部署在coding上的，经常访问速度超级慢。索性就研究了一下怎么部署到自己买的云服务器上。  我买的是腾讯云的服务器。网上其实有蛮多教程的。我这里还是做了一次整理。">
+<meta property="og:type" content="article">
+<meta property="og:title" content="将hexo博客从github和coding迁移至自己买的腾讯云服务器">
+<meta property="og:url" content="http://justfantasy.cn/2019/02/13/hexo-to-own-server/index.html">
+<meta property="og:site_name" content="美好时光小站">
+<meta property="og:description" content="本来博客部署在coding上的，经常访问速度超级慢。索性就研究了一下怎么部署到自己买的云服务器上。  我买的是腾讯云的服务器。网上其实有蛮多教程的。我这里还是做了一次整理。">
+<meta property="og:locale" content="zh_CN">
+<meta property="article:published_time" content="2019-02-13T01:52:00.000Z">
+<meta property="article:modified_time" content="2019-02-14T01:18:16.495Z">
+<meta property="article:author" content="JustFantasy">
+<meta property="article:tag" content="笔记">
+<meta name="twitter:card" content="summary">
+    
+        <link rel="alternate" type="application/atom+xml" title="美好时光小站" href="/atom.xml">
+    
+    <link rel="shortcut icon" href="/favicon.ico">
+    <link rel="stylesheet" href="//unpkg.com/hexo-theme-material-indigo@latest/css/style.css">
+    <script>window.lazyScripts=[]</script>
+
+    <!-- custom head -->
+    
+
+<meta name="generator" content="Hexo 4.2.1"></head>
+
+<body>
+    <div id="loading" class="active"></div>
+
+    <aside id="menu" class="hide" >
+  <div class="inner flex-row-vertical">
+    <a href="javascript:;" class="header-icon waves-effect waves-circle waves-light" id="menu-off">
+        <i class="icon icon-lg icon-close"></i>
+    </a>
+    <div class="brand-wrap" style="background-image:url(/img/brand.jpg)">
+      <div class="brand">
+        <a href="/" class="avatar waves-effect waves-circle waves-light">
+          <img src="/img/avatar.png">
+        </a>
+        <hgroup class="introduce">
+          <h5 class="nickname">JustFantasy</h5>
+          <a href="mailto:27506954@qq.com" title="27506954@qq.com" class="mail">27506954@qq.com</a>
+        </hgroup>
+      </div>
+    </div>
+    <div class="scroll-wrap flex-col">
+      <ul class="nav">
+        
+            <li class="waves-block waves-effect">
+              <a href="/"  >
+                <i class="icon icon-lg icon-home"></i>
+                主页
+              </a>
+            </li>
+        
+            <li class="waves-block waves-effect">
+              <a href="/archives"  >
+                <i class="icon icon-lg icon-archives"></i>
+                归档
+              </a>
+            </li>
+        
+            <li class="waves-block waves-effect">
+              <a href="/tags"  >
+                <i class="icon icon-lg icon-tags"></i>
+                标签
+              </a>
+            </li>
+        
+            <li class="waves-block waves-effect">
+              <a href="/categories"  >
+                <i class="icon icon-lg icon-th-list"></i>
+                分类
+              </a>
+            </li>
+        
+            <li class="waves-block waves-effect">
+              <a href="https://github.com/justfantasy" target="_blank" >
+                <i class="icon icon-lg icon-github"></i>
+                Github
+              </a>
+            </li>
+        
+            <li class="waves-block waves-effect">
+              <a href="/custom"  >
+                <i class="icon icon-lg icon-link"></i>
+                测试
+              </a>
+            </li>
+        
+      </ul>
+    </div>
+  </div>
+</aside>
+
+    <main id="main">
+        <header class="top-header" id="header">
+    <div class="flex-row">
+        <a href="javascript:;" class="header-icon waves-effect waves-circle waves-light on" id="menu-toggle">
+          <i class="icon icon-lg icon-navicon"></i>
+        </a>
+        <div class="flex-col header-title ellipsis">将hexo博客从github和coding迁移至自己买的腾讯云服务器</div>
+        
+        <div class="search-wrap" id="search-wrap">
+            <a href="javascript:;" class="header-icon waves-effect waves-circle waves-light" id="back">
+                <i class="icon icon-lg icon-chevron-left"></i>
+            </a>
+            <input type="text" id="key" class="search-input" autocomplete="off" placeholder="输入感兴趣的关键字">
+            <a href="javascript:;" class="header-icon waves-effect waves-circle waves-light" id="search">
+                <i class="icon icon-lg icon-search"></i>
+            </a>
+        </div>
+        
+        
+        <a href="javascript:;" class="header-icon waves-effect waves-circle waves-light" id="menuShare">
+            <i class="icon icon-lg icon-share-alt"></i>
+        </a>
+        
+    </div>
+</header>
+<header class="content-header post-header">
+
+    <div class="container fade-scale">
+        <h1 class="title">将hexo博客从github和coding迁移至自己买的腾讯云服务器</h1>
+        <h5 class="subtitle">
+            
+                <time datetime="2019-02-13T01:52:00.000Z" itemprop="datePublished" class="page-time">
+  2019-02-13
+</time>
+
+
+	<ul class="article-category-list"><li class="article-category-list-item"><a class="article-category-list-link" href="/categories/%E7%AC%94%E8%AE%B0/">笔记</a></li></ul>
+
+            
+        </h5>
+    </div>
+
+    
+
+
+</header>
+
+
+<div class="container body-wrap">
+    
+    <aside class="post-widget">
+        <nav class="post-toc-wrap post-toc-shrink" id="post-toc">
+            <h4>TOC</h4>
+            <ol class="post-toc"><li class="post-toc-item post-toc-level-4"><a class="post-toc-link" href="#在服务器上安装git"><span class="post-toc-number">1.</span> <span class="post-toc-text">在服务器上安装git</span></a></li><li class="post-toc-item post-toc-level-4"><a class="post-toc-link" href="#创建git用户"><span class="post-toc-number">2.</span> <span class="post-toc-text">创建git用户</span></a></li><li class="post-toc-item post-toc-level-4"><a class="post-toc-link" href="#配置密钥"><span class="post-toc-number">3.</span> <span class="post-toc-text">配置密钥</span></a></li><li class="post-toc-item post-toc-level-4"><a class="post-toc-link" href="#自动化部署"><span class="post-toc-number">4.</span> <span class="post-toc-text">自动化部署</span></a></li><li class="post-toc-item post-toc-level-4"><a class="post-toc-link" href="#本地配置"><span class="post-toc-number">5.</span> <span class="post-toc-text">本地配置</span></a></li><li class="post-toc-item post-toc-level-4"><a class="post-toc-link" href="#执行部署命令即可"><span class="post-toc-number">6.</span> <span class="post-toc-text">执行部署命令即可</span></a></li></ol>
+        </nav>
+    </aside>
+
+
+<article id="post-hexo-to-own-server"
+  class="post-article article-type-post fade" itemprop="blogPost">
+
+    <div class="post-card">
+        <h1 class="post-card-title">将hexo博客从github和coding迁移至自己买的腾讯云服务器</h1>
+        <div class="post-meta">
+            <time class="post-time" title="2019-02-13 09:52:00" datetime="2019-02-13T01:52:00.000Z"  itemprop="datePublished">2019-02-13</time>
+
+            
+	<ul class="article-category-list"><li class="article-category-list-item"><a class="article-category-list-link" href="/categories/%E7%AC%94%E8%AE%B0/">笔记</a></li></ul>
+
+
+
+            
+<span id="busuanzi_container_page_pv" title="文章总阅读量" style='display:none'>
+    <i class="icon icon-eye icon-pr"></i><span id="busuanzi_value_page_pv"></span>
+</span>
+
+
+        </div>
+        <div class="post-content" id="post-content" itemprop="postContent">
+            <blockquote>
+<p>本来博客部署在coding上的，经常访问速度超级慢。索性就研究了一下怎么部署到自己买的云服务器上。</p>
+</blockquote>
+<p>我买的是腾讯云的服务器。网上其实有蛮多教程的。我这里还是做了一次整理。</p>
+<a id="more"></a>
+<h4 id="在服务器上安装git"><a href="#在服务器上安装git" class="headerlink" title="在服务器上安装git"></a>在服务器上安装git</h4><figure class="highlight sh"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">yum install -y git</span><br></pre></td></tr></table></figure>
+
+<h4 id="创建git用户"><a href="#创建git用户" class="headerlink" title="创建git用户"></a>创建git用户</h4><figure class="highlight sh"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br></pre></td><td class="code"><pre><span class="line">adduser git</span><br><span class="line">passwd git</span><br><span class="line">chmod 740 /etc/sudoers</span><br><span class="line">vim /etc/sudoers</span><br></pre></td></tr></table></figure>
+<p>找到以下内容</p>
+<figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">root ALL&#x3D;(ALL) ALL</span><br></pre></td></tr></table></figure>
+<p>在它后面添加一行</p>
+<figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">git ALL&#x3D;(ALL) ALL</span><br></pre></td></tr></table></figure>
+<p>保存并退出，将权限修改回来</p>
+<figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">chmod 400 &#x2F;etc&#x2F;sudoers</span><br></pre></td></tr></table></figure>
+
+<h4 id="配置密钥"><a href="#配置密钥" class="headerlink" title="配置密钥"></a>配置密钥</h4><p>在windows本地的git bash中创建密钥（如果已经设置好环境变量，直接在cmd命令行执行即可）</p>
+<figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">ssh-keygen -t rsa</span><br></pre></td></tr></table></figure>
+<p>一路回车即可</p>
+<p>回到云服务器。切换至 git 用户，创建 .ssh 文件夹以及 authorized_keys 文件并将本地的 id_rsa.pub 文件内容粘贴到里面。</p>
+<figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><span class="line">su git</span><br><span class="line">mkdir ~&#x2F;.ssh</span><br><span class="line">vim ~&#x2F;.ssh&#x2F;authorized_keys</span><br></pre></td></tr></table></figure>
+<p>修改权限</p>
+<figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><span class="line">cd ~</span><br><span class="line">chmod 600 .ssh&#x2F;authorzied_keys</span><br><span class="line">chmod 700 .ssh</span><br></pre></td></tr></table></figure>
+<p>配置nginx（省略）</p>
+<h4 id="自动化部署"><a href="#自动化部署" class="headerlink" title="自动化部署"></a>自动化部署</h4><p>建立git仓库</p>
+<figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><span class="line">su root</span><br><span class="line">cd &#x2F;home&#x2F;git&#x2F;repo   # 在 git 用户目录下创建</span><br><span class="line">git init --bare blog.git</span><br></pre></td></tr></table></figure>
+<p>修改目录所有者</p>
+<figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">chown git:git -R blog.git</span><br></pre></td></tr></table></figure>
+<p>使用git-hooks同步网站目录</p>
+<figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line">cd &#x2F;home&#x2F;git&#x2F;repo</span><br><span class="line">vim blog.git&#x2F;hooks&#x2F;post-receive</span><br></pre></td></tr></table></figure>
+<p>写入内容【这里要考虑权限问题，git用户是否有权限向web目录/www/wwwroot/hexo下创建新的文件，可以使用git用户进行测试】</p>
+<figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line">#!&#x2F;bin&#x2F;sh</span><br><span class="line">git --work-tree&#x3D;&#x2F;www&#x2F;wwwroot&#x2F;hexo --git-dir&#x3D;&#x2F;home&#x2F;git&#x2F;repo&#x2F;blog.git checkout -f</span><br></pre></td></tr></table></figure>
+<p>保存后赋予可执行权限</p>
+<figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">chmod +x &#x2F;home&#x2F;git&#x2F;repo&#x2F;blog.git&#x2F;hooks&#x2F;post-receive</span><br></pre></td></tr></table></figure>
+
+<h4 id="本地配置"><a href="#本地配置" class="headerlink" title="本地配置"></a>本地配置</h4><p>hexo 根目录下的 _config.yml 文件，找到 deploy。</p>
+<figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br></pre></td><td class="code"><pre><span class="line">deploy:</span><br><span class="line">  type: git</span><br><span class="line">  repo: </span><br><span class="line">    #github: https:&#x2F;&#x2F;github.com&#x2F;xxxx&#x2F;xxx.github.io.git</span><br><span class="line">    #coding: https:&#x2F;&#x2F;git.coding.net&#x2F;xxx&#x2F;xxx.git</span><br><span class="line">    server: git@100.1.1.100:&#x2F;home&#x2F;git&#x2F;repo&#x2F;blog.git</span><br><span class="line">  branch: master</span><br></pre></td></tr></table></figure>
+
+<h4 id="执行部署命令即可"><a href="#执行部署命令即可" class="headerlink" title="执行部署命令即可"></a>执行部署命令即可</h4><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">hexo g -d</span><br></pre></td></tr></table></figure>
+
+
+        </div>
+
+        <blockquote class="post-copyright">
+    
+    <div class="content">
+        
+<span class="post-time">
+    最后更新时间：<time datetime="2019-02-14T01:18:16.495Z" itemprop="dateUpdated">2019-02-14 09:18:16</time>
+</span><br>
+
+
+        
+        这里可以写作者留言，标签和 hexo 中所有变量及辅助函数等均可调用，示例：<a href="/2019/02/13/hexo-to-own-server/" target="_blank" rel="external">http://justfantasy.cn/2019/02/13/hexo-to-own-server/</a>
+        
+    </div>
+    
+    <footer>
+        <a href="http://justfantasy.cn">
+            <img src="/img/avatar.png" alt="JustFantasy">
+            JustFantasy
+        </a>
+    </footer>
+</blockquote>
+
+        
+<div class="page-reward">
+    <a id="rewardBtn" href="javascript:;" class="page-reward-btn waves-effect waves-circle waves-light">赏</a>
+</div>
+
+
+
+        <div class="post-footer">
+            
+	<ul class="article-tag-list" itemprop="keywords"><li class="article-tag-list-item"><a class="article-tag-list-link" href="/tags/%E7%AC%94%E8%AE%B0/" rel="tag">笔记</a></li></ul>
+
+
+            
+<div class="page-share-wrap">
+    
+
+<div class="page-share" id="pageShare">
+    <ul class="reset share-icons">
+      <li>
+        <a class="weibo share-sns" target="_blank" href="http://service.weibo.com/share/share.php?url=http://justfantasy.cn/2019/02/13/hexo-to-own-server/&title=《将hexo博客从github和coding迁移至自己买的腾讯云服务器》 — 美好时光小站&pic=http://justfantasy.cn/img/avatar.png" data-title="微博">
+          <i class="icon icon-weibo"></i>
+        </a>
+      </li>
+      <li>
+        <a class="weixin share-sns wxFab" href="javascript:;" data-title="微信">
+          <i class="icon icon-weixin"></i>
+        </a>
+      </li>
+      <li>
+        <a class="qq share-sns" target="_blank" href="http://connect.qq.com/widget/shareqq/index.html?url=http://justfantasy.cn/2019/02/13/hexo-to-own-server/&title=《将hexo博客从github和coding迁移至自己买的腾讯云服务器》 — 美好时光小站&source=
+本来博客部署在coding上的，经常访问速度超级慢。索性就研究了一下怎么部署到自己买的云服务器上。
+
+我买的是腾讯云的服务器。网上其实有蛮多教程的。我这..." data-title=" QQ">
+          <i class="icon icon-qq"></i>
+        </a>
+      </li>
+      <li>
+        <a class="facebook share-sns" target="_blank" href="https://www.facebook.com/sharer/sharer.php?u=http://justfantasy.cn/2019/02/13/hexo-to-own-server/" data-title=" Facebook">
+          <i class="icon icon-facebook"></i>
+        </a>
+      </li>
+      <li>
+        <a class="twitter share-sns" target="_blank" href="https://twitter.com/intent/tweet?text=《将hexo博客从github和coding迁移至自己买的腾讯云服务器》 — 美好时光小站&url=http://justfantasy.cn/2019/02/13/hexo-to-own-server/&via=http://justfantasy.cn" data-title=" Twitter">
+          <i class="icon icon-twitter"></i>
+        </a>
+      </li>
+      <li>
+        <a class="google share-sns" target="_blank" href="https://plus.google.com/share?url=http://justfantasy.cn/2019/02/13/hexo-to-own-server/" data-title=" Google+">
+          <i class="icon icon-google-plus"></i>
+        </a>
+      </li>
+    </ul>
+ </div>
+
+
+
+    <a href="javascript:;" id="shareFab" class="page-share-fab waves-effect waves-circle">
+        <i class="icon icon-share-alt icon-lg"></i>
+    </a>
+</div>
+
+
+
+        </div>
+    </div>
+
+    
+<nav class="post-nav flex-row flex-justify-between flex-row-reverse">
+  
+
+  
+    <div class="waves-block waves-effect next">
+      <a href="/2019/01/07/JavaScript-Design-Pattern-and-development-practice/" id="post-next" class="post-nav-link">
+        <div class="tips">Next <i class="icon icon-angle-right icon-lg icon-pl"></i></div>
+        <h4 class="title">javascript设计模式与开发实践 PDF 百度网盘下载</h4>
+      </a>
+    </div>
+  
+</nav>
+
+
+
+    
+
+</article>
+
+<div id="reward" class="page-modal reward-lay">
+    <a class="close" href="javascript:;"><i class="icon icon-close"></i></a>
+    <h3 class="reward-title">
+        <i class="icon icon-quote-left"></i>
+        谢谢大爷~
+        <i class="icon icon-quote-right"></i>
+    </h3>
+    <div class="reward-content">
+        
+        <div class="reward-code">
+            <img id="rewardCode" src="/img/wechatpay.png" alt="打赏二维码">
+        </div>
+        
+        <label class="reward-toggle">
+            <input id="rewardToggle" type="checkbox" class="reward-toggle-check"
+                data-wechat="/img/wechatpay.png" data-alipay="/img/alipay.png">
+            <div class="reward-toggle-ctrol">
+                <span class="reward-toggle-item wechat">微信</span>
+                <span class="reward-toggle-label"></span>
+                <span class="reward-toggle-item alipay">支付宝</span>
+            </div>
+        </label>
+        
+    </div>
+</div>
+
+
+
+</div>
+
+        <footer class="footer">
+    <div class="top">
+        
+<p>
+    <span id="busuanzi_container_site_uv" style='display:none'>
+        站点总访客数：<span id="busuanzi_value_site_uv"></span>
+    </span>
+    <span id="busuanzi_container_site_pv" style='display:none'>
+        站点总访问量：<span id="busuanzi_value_site_pv"></span>
+    </span>
+</p>
+
+
+        <p>
+            
+                <span><a href="/atom.xml" target="_blank" class="rss" title="rss"><i class="icon icon-lg icon-rss"></i></a></span>
+            
+            <span>博客内容遵循 <a rel="license noopener" href="https://creativecommons.org/licenses/by-nc-sa/4.0/deed.zh" target="_blank">知识共享 署名 - 非商业性 - 相同方式共享 4.0 国际协议</a></span>
+        </p>
+    </div>
+    <div class="bottom">
+        <p><span>JustFantasy &copy; 2017 - 2020</span>
+            <span>
+                
+                Power by <a href="http://hexo.io/" target="_blank">Hexo</a> Theme <a href="https://github.com/yscoder/hexo-theme-indigo" target="_blank">indigo</a>
+            </span>
+        </p>
+    </div>
+</footer>
+
+    </main>
+    <div class="mask" id="mask"></div>
+<a href="javascript:;" id="gotop" class="waves-effect waves-circle waves-light"><span class="icon icon-lg icon-chevron-up"></span></a>
+
+
+
+<div class="global-share" id="globalShare">
+    <ul class="reset share-icons">
+      <li>
+        <a class="weibo share-sns" target="_blank" href="http://service.weibo.com/share/share.php?url=http://justfantasy.cn/2019/02/13/hexo-to-own-server/&title=《将hexo博客从github和coding迁移至自己买的腾讯云服务器》 — 美好时光小站&pic=http://justfantasy.cn/img/avatar.png" data-title="微博">
+          <i class="icon icon-weibo"></i>
+        </a>
+      </li>
+      <li>
+        <a class="weixin share-sns wxFab" href="javascript:;" data-title="微信">
+          <i class="icon icon-weixin"></i>
+        </a>
+      </li>
+      <li>
+        <a class="qq share-sns" target="_blank" href="http://connect.qq.com/widget/shareqq/index.html?url=http://justfantasy.cn/2019/02/13/hexo-to-own-server/&title=《将hexo博客从github和coding迁移至自己买的腾讯云服务器》 — 美好时光小站&source=
+本来博客部署在coding上的，经常访问速度超级慢。索性就研究了一下怎么部署到自己买的云服务器上。
+
+我买的是腾讯云的服务器。网上其实有蛮多教程的。我这..." data-title=" QQ">
+          <i class="icon icon-qq"></i>
+        </a>
+      </li>
+      <li>
+        <a class="facebook share-sns" target="_blank" href="https://www.facebook.com/sharer/sharer.php?u=http://justfantasy.cn/2019/02/13/hexo-to-own-server/" data-title=" Facebook">
+          <i class="icon icon-facebook"></i>
+        </a>
+      </li>
+      <li>
+        <a class="twitter share-sns" target="_blank" href="https://twitter.com/intent/tweet?text=《将hexo博客从github和coding迁移至自己买的腾讯云服务器》 — 美好时光小站&url=http://justfantasy.cn/2019/02/13/hexo-to-own-server/&via=http://justfantasy.cn" data-title=" Twitter">
+          <i class="icon icon-twitter"></i>
+        </a>
+      </li>
+      <li>
+        <a class="google share-sns" target="_blank" href="https://plus.google.com/share?url=http://justfantasy.cn/2019/02/13/hexo-to-own-server/" data-title=" Google+">
+          <i class="icon icon-google-plus"></i>
+        </a>
+      </li>
+    </ul>
+ </div>
+
+
+<div class="page-modal wx-share" id="wxShare">
+    <a class="close" href="javascript:;"><i class="icon icon-close"></i></a>
+    <p>扫一扫，分享到微信</p>
+    <img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAMYAAADGCAAAAACs8KCBAAACJ0lEQVR42u3aSXLjMBAEQP3/05oHTJCuQgsHgsmTwiGDSB/avX0+8fMNnqtvJqf9//PPjgcDA+OxjPZy+StzXv5HuXwvBgbGCxjJJSYXSqLl/ec/7oyBgYFxcd38nCR8Y2BgYPyW0YbOtsTFwMDAWCti77+fd8PyILulFsfAwHgg41dF5o7PW+YbGBgYj2J8yycfRk4SwfpWGBgYRzPyAHef2CUl8f1pPzgBAwPjaEabd90Hyh2Fbj6EwMDAOJXRvjK5dN5iS9LKaGiKgYFxKGMyAMjXL9q0sh4AYGBgHM1IXr/Wh18LzckdLmEYGBhHM9r2WTt6bNcsRsUwBgbGcYzJukNbguY/bwtdDAyM9zDy8NeWuG3IroM4BgbGCxhrr297X2tFbBTiMTAwjmbsCKxrw4BJIY2BgXE2o33lpGUflaMx8jI1xMDAOI7RtsB2JJGjgeVaJw8DA+NRjLpQHDfmkhPaVQ8MDIyzGUl4zYeL7XrZJOz+seOGgYFxHCO59I5CNF+ziHJCDAyMFzDa2FWvRMQtuYRx2W7DwMB4AWNSvuYrFG3KGIVvDAyMQxnf8mlTuvmINPotDAyMoxk7RozJAKAdGKz9Y8DAwDiJMS9Z23WNSQNu1DXEwMB4OCOvevM1iHy0uTbmxMDAwMiv3o4H6o5gcg4GBgZGnPbNm3H5KPQHARcDA+NRjLVrTdpqa0EZAwPjnYzJpkZCalPJPDXEwMB4AeMf0c3bGYukWl4AAAAASUVORK5CYII=" alt="微信分享二维码">
+</div>
+
+
+
+
+    <script src="//cdn.bootcss.com/node-waves/0.7.4/waves.min.js"></script>
+<script>
+var BLOG = { ROOT: '/', SHARE: true, REWARD: true };
+
+
+lazyScripts.push('//s95.cnzz.com/z_stat.php?id=1279119026&web_id=1279119026')
+
+</script>
+
+<script src="//unpkg.com/hexo-theme-material-indigo@latest/js/main.min.js"></script>
+
+
+<div class="search-panel" id="search-panel">
+    <ul class="search-result" id="search-result"></ul>
+</div>
+<template id="search-tpl">
+<li class="item">
+    <a href="{path}" class="waves-block waves-effect">
+        <div class="title ellipsis" title="{title}">{title}</div>
+        <div class="flex-row flex-middle">
+            <div class="tags ellipsis">
+                {tags}
+            </div>
+            <time class="flex-col time">{date}</time>
+        </div>
+    </a>
+</li>
+</template>
+
+<script src="//unpkg.com/hexo-theme-material-indigo@latest/js/search.min.js" async></script>
+
+
+
+
+
+
+<script async src="//busuanzi.ibruce.info/busuanzi/2.3/busuanzi.pure.mini.js"></script>
+
+
+
+<script>
+(function() {
+    var OriginTitile = document.title, titleTime;
+    document.addEventListener('visibilitychange', function() {
+        if (document.hidden) {
+            document.title = '编程，读书，看电影。';
+            clearTimeout(titleTime);
+        } else {
+            document.title = '美好时光小站';
+            titleTime = setTimeout(function() {
+                document.title = OriginTitile;
+            },2000);
+        }
+    });
+})();
+</script>
+
+
+
+</body>
+</html>
