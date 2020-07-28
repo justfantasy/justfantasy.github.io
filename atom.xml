@@ -195,29 +195,6 @@
   </entry>
   
   <entry>
-    <title>借蜡烛</title>
-    <link href="https://justfantasy.cn/2018/09/28/borrow-a-candle/"/>
-    <id>https://justfantasy.cn/2018/09/28/borrow-a-candle/</id>
-    <published>2018-09-28T01:30:00.000Z</published>
-    <updated>2020-07-28T09:44:30.441Z</updated>
-    
-    <content type="html"><![CDATA[<p>一单身女子搬了家，晚上忽然停电，<br>她赶紧点起了蜡烛。忽听有人敲门。</p><a id="more"></a><p>原来是隔壁的小孩子，<br>只见他紧张地问：阿姨,你家有蜡烛吗？<br>女子想:天哪，刚来就借东西,以后就更没完没了了.<br>于是她冷冰冰地说：”没有！”<br>小孩笑了，<br>还带着一丝得意：<br>“我就知道你家没有！妈妈怕你害怕,让我给你送蜡烛来了”</p><hr><p>人性本善，只是因为一些老鼠屎，才让越来越多的人，人人自危。<br>不过，不管怎么样，人都要学会保护自己。在陌生人面前还是得防着一手。<br>哎，其实就算亲戚朋友面前，又何尝不是呢。又有多少可以敞开心扉的朋友？<br>社会太浮躁，只要有利益的东西，就总是会产生矛盾，产生纠纷。<br>往前走，不迷茫</p>]]></content>
-    
-    <summary type="html">
-    
-      &lt;p&gt;一单身女子搬了家，晚上忽然停电，&lt;br&gt;她赶紧点起了蜡烛。忽听有人敲门。&lt;/p&gt;
-    
-    </summary>
-    
-    
-      <category term="札记" scheme="https://justfantasy.cn/categories/%E6%9C%AD%E8%AE%B0/"/>
-    
-    
-      <category term="小小说" scheme="https://justfantasy.cn/tags/%E5%B0%8F%E5%B0%8F%E8%AF%B4/"/>
-    
-  </entry>
-  
-  <entry>
     <title>composer实现自动加载</title>
     <link href="https://justfantasy.cn/2018/09/28/php-composer-autoload/"/>
     <id>https://justfantasy.cn/2018/09/28/php-composer-autoload/</id>
@@ -237,6 +214,29 @@
     
     
       <category term="php" scheme="https://justfantasy.cn/tags/php/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>借蜡烛</title>
+    <link href="https://justfantasy.cn/2018/09/28/borrow-a-candle/"/>
+    <id>https://justfantasy.cn/2018/09/28/borrow-a-candle/</id>
+    <published>2018-09-28T01:30:00.000Z</published>
+    <updated>2020-07-28T09:44:30.441Z</updated>
+    
+    <content type="html"><![CDATA[<p>一单身女子搬了家，晚上忽然停电，<br>她赶紧点起了蜡烛。忽听有人敲门。</p><a id="more"></a><p>原来是隔壁的小孩子，<br>只见他紧张地问：阿姨,你家有蜡烛吗？<br>女子想:天哪，刚来就借东西,以后就更没完没了了.<br>于是她冷冰冰地说：”没有！”<br>小孩笑了，<br>还带着一丝得意：<br>“我就知道你家没有！妈妈怕你害怕,让我给你送蜡烛来了”</p><hr><p>人性本善，只是因为一些老鼠屎，才让越来越多的人，人人自危。<br>不过，不管怎么样，人都要学会保护自己。在陌生人面前还是得防着一手。<br>哎，其实就算亲戚朋友面前，又何尝不是呢。又有多少可以敞开心扉的朋友？<br>社会太浮躁，只要有利益的东西，就总是会产生矛盾，产生纠纷。<br>往前走，不迷茫</p>]]></content>
+    
+    <summary type="html">
+    
+      &lt;p&gt;一单身女子搬了家，晚上忽然停电，&lt;br&gt;她赶紧点起了蜡烛。忽听有人敲门。&lt;/p&gt;
+    
+    </summary>
+    
+    
+      <category term="札记" scheme="https://justfantasy.cn/categories/%E6%9C%AD%E8%AE%B0/"/>
+    
+    
+      <category term="小小说" scheme="https://justfantasy.cn/tags/%E5%B0%8F%E5%B0%8F%E8%AF%B4/"/>
     
   </entry>
   
