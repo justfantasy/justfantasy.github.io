@@ -13,28 +13,27 @@
     
     
     
-    <link rel="canonical" href="https://justfantasy.cn/2018/01/04/learn-laravel5.5-start/">
+    <link rel="canonical" href="https://justfantasy.cn/2020/11/03/beego-init-build/">
     
     
-    <title>laravel5.5项目初始构建 | 弈栈 | 不悔梦归处，只恨太匆匆。</title>
+    <title>beego项目初始化和打包 | 弈栈 | 不悔梦归处，只恨太匆匆。</title>
     <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
     
     <meta name="theme-color" content="#3F51B5">
     
     
-    <meta name="keywords" content="php,laravel">
-    <meta name="description" content="开发环境系统：winows8php版本：php7.1IDE：phpstormlaravel版本：5.5">
+    <meta name="keywords" content="go">
+    <meta name="description" content="新建beego项目 12bee new project #创建一个html项目bee api project #创建一个api项目 初始化模块 12go mod init projectgo get github.com&#x2F;astaxie&#x2F;beego 启动项目 1bee run">
 <meta property="og:type" content="article">
-<meta property="og:title" content="laravel5.5项目初始构建">
-<meta property="og:url" content="https://justfantasy.cn/2018/01/04/learn-laravel5.5-start/index.html">
+<meta property="og:title" content="beego项目初始化和打包">
+<meta property="og:url" content="https://justfantasy.cn/2020/11/03/beego-init-build/index.html">
 <meta property="og:site_name" content="弈栈">
-<meta property="og:description" content="开发环境系统：winows8php版本：php7.1IDE：phpstormlaravel版本：5.5">
+<meta property="og:description" content="新建beego项目 12bee new project #创建一个html项目bee api project #创建一个api项目 初始化模块 12go mod init projectgo get github.com&#x2F;astaxie&#x2F;beego 启动项目 1bee run">
 <meta property="og:locale" content="zh_CN">
-<meta property="article:published_time" content="2018-01-04T08:43:00.000Z">
-<meta property="article:modified_time" content="2020-07-28T09:47:50.723Z">
+<meta property="article:published_time" content="2020-11-03T07:11:00.000Z">
+<meta property="article:modified_time" content="2020-11-03T07:12:22.715Z">
 <meta property="article:author" content="JustFantasy">
-<meta property="article:tag" content="php">
-<meta property="article:tag" content="laravel">
+<meta property="article:tag" content="go">
 <meta name="twitter:card" content="summary">
     
         <link rel="alternate" type="application/atom+xml" title="弈栈" href="/atom.xml">
@@ -116,7 +115,7 @@
         <a href="javascript:;" class="header-icon waves-effect waves-circle waves-light on" id="menu-toggle">
           <i class="icon icon-lg icon-navicon"></i>
         </a>
-        <div class="flex-col header-title ellipsis">laravel5.5项目初始构建</div>
+        <div class="flex-col header-title ellipsis">beego项目初始化和打包</div>
         
         <div class="search-wrap" id="search-wrap">
             <a href="javascript:;" class="header-icon waves-effect waves-circle waves-light" id="back">
@@ -138,11 +137,11 @@
 <header class="content-header post-header">
 
     <div class="container fade-scale">
-        <h1 class="title">laravel5.5项目初始构建</h1>
+        <h1 class="title">beego项目初始化和打包</h1>
         <h5 class="subtitle">
             
-                <time datetime="2018-01-04T08:43:00.000Z" itemprop="datePublished" class="page-time">
-  2018-01-04
+                <time datetime="2020-11-03T07:11:00.000Z" itemprop="datePublished" class="page-time">
+  2020-11-03
 </time>
 
 
@@ -160,21 +159,14 @@
 
 <div class="container body-wrap">
     
-    <aside class="post-widget">
-        <nav class="post-toc-wrap post-toc-shrink" id="post-toc">
-            <h4>TOC</h4>
-            <ol class="post-toc"><li class="post-toc-item post-toc-level-3"><a class="post-toc-link" href="#开发环境"><span class="post-toc-number">1.</span> <span class="post-toc-text">开发环境</span></a></li><li class="post-toc-item post-toc-level-3"><a class="post-toc-link" href="#laragon集成环境的安装"><span class="post-toc-number">2.</span> <span class="post-toc-text">laragon集成环境的安装</span></a></li><li class="post-toc-item post-toc-level-3"><a class="post-toc-link" href="#使用laravel-admin包方便后台开发"><span class="post-toc-number">3.</span> <span class="post-toc-text">使用laravel-admin包方便后台开发</span></a></li><li class="post-toc-item post-toc-level-3"><a class="post-toc-link" href="#laravel5在phpstorm内的代码提示工具"><span class="post-toc-number">4.</span> <span class="post-toc-text">laravel5在phpstorm内的代码提示工具</span></a></li></ol>
-        </nav>
-    </aside>
 
-
-<article id="post-learn-laravel5.5-start"
+<article id="post-beego-init-build"
   class="post-article article-type-post fade" itemprop="blogPost">
 
     <div class="post-card">
-        <h1 class="post-card-title">laravel5.5项目初始构建</h1>
+        <h1 class="post-card-title">beego项目初始化和打包</h1>
         <div class="post-meta">
-            <time class="post-time" title="2018-01-04 16:43:00" datetime="2018-01-04T08:43:00.000Z"  itemprop="datePublished">2018-01-04</time>
+            <time class="post-time" title="2020-11-03 15:11:00" datetime="2020-11-03T07:11:00.000Z"  itemprop="datePublished">2020-11-03</time>
 
             
 	<ul class="article-category-list"><li class="article-category-list-item"><a class="article-category-list-link" href="/categories/%E5%90%8E%E7%AB%AF/">后端</a></li></ul>
@@ -189,17 +181,22 @@
 
         </div>
         <div class="post-content" id="post-content" itemprop="postContent">
-            <h3 id="开发环境"><a href="#开发环境" class="headerlink" title="开发环境"></a>开发环境</h3><p>系统：winows8<br>php版本：php7.1<br>IDE：phpstorm<br>laravel版本：5.5</p>
-<a id="more"></a>
-<h3 id="laragon集成环境的安装"><a href="#laragon集成环境的安装" class="headerlink" title="laragon集成环境的安装"></a>laragon集成环境的安装</h3><p>请参考：<a href="http://laravelacademy.org/post/7754.html" target="_blank" rel="noopener">laragon集成环境的安装</a></p>
-<h3 id="使用laravel-admin包方便后台开发"><a href="#使用laravel-admin包方便后台开发" class="headerlink" title="使用laravel-admin包方便后台开发"></a>使用laravel-admin包方便后台开发</h3><p>参考文档：<a href="http://laravel-admin.org" target="_blank" rel="noopener">laravel-admin中文文档</a><br>1.安装依赖</p>
-<figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">composer require encore&#x2F;laravel-admin &quot;1.5.*&quot;</span><br></pre></td></tr></table></figure>
-<p>2.发布资源</p>
-<figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">php artisan vendor:publish --provider&#x3D;&quot;Encore\Admin\AdminServiceProvider&quot;</span><br></pre></td></tr></table></figure>
-<p>3.完成安装</p>
-<figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">php artisan admin:install</span><br></pre></td></tr></table></figure>
-
-<h3 id="laravel5在phpstorm内的代码提示工具"><a href="#laravel5在phpstorm内的代码提示工具" class="headerlink" title="laravel5在phpstorm内的代码提示工具"></a>laravel5在phpstorm内的代码提示工具</h3><p>请参考：<a href="http://blog.csdn.net/ruglcc/article/details/70331853" target="_blank" rel="noopener">为PhpStorm添加Laravel 代码智能提示功能</a></p>
+            <ol>
+<li><p>新建beego项目</p>
+<figure class="highlight sh"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line">bee new project <span class="comment">#创建一个html项目</span></span><br><span class="line">bee api project <span class="comment">#创建一个api项目</span></span><br></pre></td></tr></table></figure></li>
+<li><p>初始化模块</p>
+<figure class="highlight sh"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line">go mod init project</span><br><span class="line">go get github.com/astaxie/beego</span><br></pre></td></tr></table></figure></li>
+<li><p>启动项目</p>
+<figure class="highlight sh"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">bee run</span><br></pre></td></tr></table></figure>
+<a id="more"></a></li>
+<li><p>打包项目</p>
+<figure class="highlight sh"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">go build</span><br></pre></td></tr></table></figure></li>
+<li><p>在win下面打包linux应用</p>
+<figure class="highlight sh"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br></pre></td><td class="code"><pre><span class="line">//<span class="built_in">cd</span>到项目目录下</span><br><span class="line"><span class="built_in">set</span> GOARCH=amd64   //设置目标可执行程序操作系统构架，包括 386，amd64，arm</span><br><span class="line"><span class="built_in">set</span> GOOS=linux     //设置可执行程序运行操作系统，支持 darwin，freebsd，linux，windows</span><br><span class="line">go build           //打包</span><br></pre></td></tr></table></figure>
+</li>
+<li><p>压缩GO打包的程序</p>
+<figure class="highlight sh"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br></pre></td><td class="code"><pre><span class="line">//mac端：</span><br><span class="line">$ brew install upx</span><br><span class="line">$ upx hello</span><br><span class="line"></span><br><span class="line">//windows,需提前下载好upx.exe文件</span><br><span class="line">upx.exe -9 hello</span><br><span class="line">//下载地址</span><br><span class="line">链接: https://pan.baidu.com/s/1lOYRnfBAUyyVdMohCMHc-Q 提取码: niqc</span><br></pre></td></tr></table></figure></li>
+</ol>
 
         </div>
 
@@ -230,7 +227,7 @@
 
         <div class="post-footer">
             
-	<ul class="article-tag-list" itemprop="keywords"><li class="article-tag-list-item"><a class="article-tag-list-link" href="/tags/laravel/" rel="tag">laravel</a></li><li class="article-tag-list-item"><a class="article-tag-list-link" href="/tags/php/" rel="tag">php</a></li></ul>
+	<ul class="article-tag-list" itemprop="keywords"><li class="article-tag-list-item"><a class="article-tag-list-link" href="/tags/go/" rel="tag">go</a></li></ul>
 
 
             
@@ -240,7 +237,7 @@
 <div class="page-share" id="pageShare">
     <ul class="reset share-icons">
       <li>
-        <a class="weibo share-sns" target="_blank" href="http://service.weibo.com/share/share.php?url=https://justfantasy.cn/2018/01/04/learn-laravel5.5-start/&title=《laravel5.5项目初始构建》 — 弈栈&pic=//cdn.jsdelivr.net/gh/justfantasy/justfantasy.github.io/img/avatar.png" data-title="微博">
+        <a class="weibo share-sns" target="_blank" href="http://service.weibo.com/share/share.php?url=https://justfantasy.cn/2020/11/03/beego-init-build/&title=《beego项目初始化和打包》 — 弈栈&pic=//cdn.jsdelivr.net/gh/justfantasy/justfantasy.github.io/img/avatar.png" data-title="微博">
           <i class="icon icon-weibo"></i>
         </a>
       </li>
@@ -250,22 +247,26 @@
         </a>
       </li>
       <li>
-        <a class="qq share-sns" target="_blank" href="http://connect.qq.com/widget/shareqq/index.html?url=https://justfantasy.cn/2018/01/04/learn-laravel5.5-start/&title=《laravel5.5项目初始构建》 — 弈栈&source=开发环境系统：winows8php版本：php7.1IDE：phpstormlaravel版本：5.5" data-title=" QQ">
+        <a class="qq share-sns" target="_blank" href="http://connect.qq.com/widget/shareqq/index.html?url=https://justfantasy.cn/2020/11/03/beego-init-build/&title=《beego项目初始化和打包》 — 弈栈&source=
+新建beego项目
+12bee new project #创建一个html项目bee api project #创建一个api项目
+初始化模块
+12go..." data-title=" QQ">
           <i class="icon icon-qq"></i>
         </a>
       </li>
       <li>
-        <a class="facebook share-sns" target="_blank" href="https://www.facebook.com/sharer/sharer.php?u=https://justfantasy.cn/2018/01/04/learn-laravel5.5-start/" data-title=" Facebook">
+        <a class="facebook share-sns" target="_blank" href="https://www.facebook.com/sharer/sharer.php?u=https://justfantasy.cn/2020/11/03/beego-init-build/" data-title=" Facebook">
           <i class="icon icon-facebook"></i>
         </a>
       </li>
       <li>
-        <a class="twitter share-sns" target="_blank" href="https://twitter.com/intent/tweet?text=《laravel5.5项目初始构建》 — 弈栈&url=https://justfantasy.cn/2018/01/04/learn-laravel5.5-start/&via=https://justfantasy.cn" data-title=" Twitter">
+        <a class="twitter share-sns" target="_blank" href="https://twitter.com/intent/tweet?text=《beego项目初始化和打包》 — 弈栈&url=https://justfantasy.cn/2020/11/03/beego-init-build/&via=https://justfantasy.cn" data-title=" Twitter">
           <i class="icon icon-twitter"></i>
         </a>
       </li>
       <li>
-        <a class="google share-sns" target="_blank" href="https://plus.google.com/share?url=https://justfantasy.cn/2018/01/04/learn-laravel5.5-start/" data-title=" Google+">
+        <a class="google share-sns" target="_blank" href="https://plus.google.com/share?url=https://justfantasy.cn/2020/11/03/beego-init-build/" data-title=" Google+">
           <i class="icon icon-google-plus"></i>
         </a>
       </li>
@@ -285,21 +286,14 @@
     </div>
 
     
-<nav class="post-nav flex-row flex-justify-between">
-  
-    <div class="waves-block waves-effect prev">
-      <a href="/2018/09/28/php-composer-autoload/" id="post-prev" class="post-nav-link">
-        <div class="tips"><i class="icon icon-angle-left icon-lg icon-pr"></i> Prev</div>
-        <h4 class="title">composer实现自动加载</h4>
-      </a>
-    </div>
+<nav class="post-nav flex-row flex-justify-between flex-row-reverse">
   
 
   
     <div class="waves-block waves-effect next">
-      <a href="/2017/10/11/windows-sublime-c-execute/" id="post-next" class="post-nav-link">
+      <a href="/2019/02/13/hexo-to-own-server/" id="post-next" class="post-nav-link">
         <div class="tips">Next <i class="icon icon-angle-right icon-lg icon-pl"></i></div>
-        <h4 class="title">Windows下使用Sublime Text 3调试/运行 C/C++ 程序</h4>
+        <h4 class="title">将hexo博客从github和coding迁移至自己买的腾讯云服务器</h4>
       </a>
     </div>
   
@@ -423,7 +417,7 @@
 <div class="global-share" id="globalShare">
     <ul class="reset share-icons">
       <li>
-        <a class="weibo share-sns" target="_blank" href="http://service.weibo.com/share/share.php?url=https://justfantasy.cn/2018/01/04/learn-laravel5.5-start/&title=《laravel5.5项目初始构建》 — 弈栈&pic=//cdn.jsdelivr.net/gh/justfantasy/justfantasy.github.io/img/avatar.png" data-title="微博">
+        <a class="weibo share-sns" target="_blank" href="http://service.weibo.com/share/share.php?url=https://justfantasy.cn/2020/11/03/beego-init-build/&title=《beego项目初始化和打包》 — 弈栈&pic=//cdn.jsdelivr.net/gh/justfantasy/justfantasy.github.io/img/avatar.png" data-title="微博">
           <i class="icon icon-weibo"></i>
         </a>
       </li>
@@ -433,22 +427,26 @@
         </a>
       </li>
       <li>
-        <a class="qq share-sns" target="_blank" href="http://connect.qq.com/widget/shareqq/index.html?url=https://justfantasy.cn/2018/01/04/learn-laravel5.5-start/&title=《laravel5.5项目初始构建》 — 弈栈&source=开发环境系统：winows8php版本：php7.1IDE：phpstormlaravel版本：5.5" data-title=" QQ">
+        <a class="qq share-sns" target="_blank" href="http://connect.qq.com/widget/shareqq/index.html?url=https://justfantasy.cn/2020/11/03/beego-init-build/&title=《beego项目初始化和打包》 — 弈栈&source=
+新建beego项目
+12bee new project #创建一个html项目bee api project #创建一个api项目
+初始化模块
+12go..." data-title=" QQ">
           <i class="icon icon-qq"></i>
         </a>
       </li>
       <li>
-        <a class="facebook share-sns" target="_blank" href="https://www.facebook.com/sharer/sharer.php?u=https://justfantasy.cn/2018/01/04/learn-laravel5.5-start/" data-title=" Facebook">
+        <a class="facebook share-sns" target="_blank" href="https://www.facebook.com/sharer/sharer.php?u=https://justfantasy.cn/2020/11/03/beego-init-build/" data-title=" Facebook">
           <i class="icon icon-facebook"></i>
         </a>
       </li>
       <li>
-        <a class="twitter share-sns" target="_blank" href="https://twitter.com/intent/tweet?text=《laravel5.5项目初始构建》 — 弈栈&url=https://justfantasy.cn/2018/01/04/learn-laravel5.5-start/&via=https://justfantasy.cn" data-title=" Twitter">
+        <a class="twitter share-sns" target="_blank" href="https://twitter.com/intent/tweet?text=《beego项目初始化和打包》 — 弈栈&url=https://justfantasy.cn/2020/11/03/beego-init-build/&via=https://justfantasy.cn" data-title=" Twitter">
           <i class="icon icon-twitter"></i>
         </a>
       </li>
       <li>
-        <a class="google share-sns" target="_blank" href="https://plus.google.com/share?url=https://justfantasy.cn/2018/01/04/learn-laravel5.5-start/" data-title=" Google+">
+        <a class="google share-sns" target="_blank" href="https://plus.google.com/share?url=https://justfantasy.cn/2020/11/03/beego-init-build/" data-title=" Google+">
           <i class="icon icon-google-plus"></i>
         </a>
       </li>
@@ -459,7 +457,7 @@
 <div class="page-modal wx-share" id="wxShare">
     <a class="close" href="javascript:;"><i class="icon icon-close"></i></a>
     <p>扫一扫，分享到微信</p>
-    <img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAMYAAADGCAAAAACs8KCBAAACK0lEQVR42u3ay26DQAwF0Pz/T9NtqwpybdNUzBxWqEqIDwt3/Hi94uv4dv3++9n92beun3D9+dGFgYHxWMZxeeVhJd+6Ziev4zQGDAyMDRhJKsyT7zxN57FhYGBg9BJiNcTkCRgYGBi9hJv8ZFJ7/vP/DQwMjIcw8tRZ7Xclx8S8eL6hFsfAwHggo5cWP3P/J/MNDAyMRzGO4jVpoiWNuWZUGBgYSzPmx74cmRfA1XgwMDDWZvQWLKqBXoc1GY4262AMDIxHMZJH5z92b6C9hQ8MDIxVGYVCMQZX2b1lCwwMjB0YySFvUspWk3h+9Pxxj4GBsQGjmgTnw848NUcpGAMDY0tGHvrkk70Fi0LCxcDAWI4x6c9NhgT5K3hTxGJgYCzK6B3yeq383qFwflTFwMB4OiNfragm5ckKbDkpY2BgbMCoBlodJNzVGTt9ERgYGNswqkFX026h0V8cWmBgYKzN6C06TIaRydJG/lsYGBj7MOZLEr3m2qQNd5qOMTAwFmX0EmjeaOsNO8tPw8DA2JhRbcBV17/y4eWbQhcDA2MDRrXpPzn85WsZ5fIVAwNjOcZRvPKx5b1PeEPFwMBYmpFfSTFZLVDzsWh1gIGBgbEeIx8oVlfBqk23HhsDA2MfxjzxJeH2ls+iV4CBgYFRPA7mCbe6gnZbwsXAwFia0Vs5rY4Q8pYcBgbGPoykiJ0cAfNCOs+iGBgY+zCq567eUbJ6lstTPAYGxtKMLw6i5PM/gcyhAAAAAElFTkSuQmCC" alt="微信分享二维码">
+    <img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAMYAAADGCAAAAACs8KCBAAACKUlEQVR42u3aQW7DMAwFUd//0uoBCivzSSeAqdEqaBxbzwuWFHldeK1/6+5bcj351fWNJUOGjNcy1nbtH1C75m4P+3t+eDUyZMg4gMFvnf7l7qXwELzfmwwZMmSQwMrDNIHJkCFDxlMM/kieOMqQIUPGnkGKWLKhWkj9aS0uQ4aMFzL4qfvvP3+lvyFDhoxXMVa4eOsx3dZqLBkyZMxm1B7TH5h4li1DhozZjE7ATduWPOmM26UyZMg4gEGO3fu1cpDkpW1UGTJkHMAgB/HpqASn7jHoPjJkyDiAUWtSpkVpOi62D8G3/zdkyJAxlEESQXLTfombthyCiTMZMmSMZqSYDjg9aAsCrgwZMl7LIOVirbnY4dWSURkyZExlpGUqD6Dk1aTBNBgIkyFDxjhGrQ3AS19UiIYvEXVHZciQMYiRNhrTNLEDQIeAMmTIGM0gG0qDMvk2LYYRW4YMGUMZz45TdIY2agWwDBkyTmDwAzU+ftEZyEgLaRSnZciQMYKRhtH+8ARvCQTHdjJkyDiY8Wzax9sJcXCXIUPGkQx+AIfKy9Kz+MGfDBkypjJWuEhg5WUnuXNQf8uQIWMooxPs0q3zka9Oy0GGDBlTGSTIpg1FniDGTco0c5QhQ8YgRlpw1loI/bQv6MHKkCFDBj5cI+G19lsZMmTISIcw+CBFrRXxASlDhowDGCR149ekm+4UzzJkyDiBkeZdvHwtlqPbMN1qasqQIeN9jD+2pNsZp0EW5wAAAABJRU5ErkJggg==" alt="微信分享二维码">
 </div>
 
 
